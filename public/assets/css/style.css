@@ -1,0 +1,133 @@
+body{
+  padding:0px;
+  margin:0px;
+}
+
+
+header{
+  width: 100%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:60px;
+  background-color: rgba(15,15,15,1);
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+header > .logo{
+  position: absolute;
+  left: 10px;
+  top:10px;
+  height: 40px;
+}
+
+header > a {
+  color:white;
+  text-decoration: none;
+  float:right;
+  margin-left:10px;
+  margin-top:22px;
+  font-weight:200;
+  font-size:12px;
+  font-family: Lato, sans-serif;
+}
+
+.main{
+  width:100%;
+  height:100vh;
+  background-color:rgba(40,40,40,1);
+  color: white;
+  font-family:consolas, monospace;
+  padding-top:72px;
+  padding-left: 12px;
+  padding-right:0px;
+  line-height: 28px;
+  overflow:hidden;
+  word-break: break-all;
+  letter-spacing: 1em;
+  box-sizing: border-box;
+}
+
+.main h1{
+  width: 30%;
+  height: 80px;
+  left: 35%;
+  position:absolute;
+  top: 42%;
+  background-color:rgba(60,60,60,1);
+
+  border: 1px rgba(41,171,226,1) solid;
+  text-align:center;
+  padding-top:12px;
+  box-sizing: border-box;
+  font-family:Lato, sans-serif;
+  font-weight:200;
+  font-size: 22px;
+  letter-spacing: normal !important;
+
+
+}
+
+.main h1 span{
+  width:100%;
+  clear:both;
+  font-size:14px;
+}
+
+
+.formpage{
+  width:100%;
+  height:100vh;
+  background-color:rgba(40,40,40,1);
+  color: white;
+  padding-top:72px;
+  padding-left: 12px;
+  padding-right:0px;
+  line-height: 28px;
+  overflow:hidden;
+  box-sizing: border-box;
+}
+
+.formpage > form{
+  width: 40%;
+  padding:10px;
+  box-sizing: border-box;
+  left:30%;
+  position:absolute;
+  height:auto;
+  top:200px;
+
+  border: 1px rgba(41,171,226,.1) solid;
+
+}
+
+.formpage > form > input {
+  width: 100%;
+  height: 40px;
+  border:none;
+  background-color: rgba(0,0,0,.4);
+  color:white;
+  font-family:Lato, sans-serif;
+  padding: 3px;
+  padding-left:10px;
+  border-bottom: 1px rgba(41,171,226,1) solid;
+}
+
+.formpage > form > input[type="submit"] {
+  width: 60%;
+  margin-left:20%;
+  margin-top:10px;
+  height: 40px;
+  border:none;
+  background-color: rgba(41,171,226,1) !important;
+  font-family:Lato, sans-serif;
+  padding: 3px;
+  padding-left:10px;
+  color:white;
+}
+
+
+.blue{
+  color: rgba(41,171,226,1);
+}
