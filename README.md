@@ -1,2 +1,2 @@
 # typisti
-Changing the web brick by brick
+Password witchery.
